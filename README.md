@@ -7,6 +7,16 @@
 * Add `package.json` file in the repository folder using the below command
 *     npm init -y
 * Your `package.json` will be added.
+* Check if the following are in the `package.json` or not, else modify accordingly with your repo name:
+*     "repository": {
+          "type": "git",
+          "url": "git+https://github.com/Pragna235/MERN-Assignment-Render-JSON-Server.git"
+        },
+      "bugs": {
+          "url": "https://github.com/Pragna235/MERN-Assignment-Render-JSON-Server/issues"
+        },
+      "homepage": "https://github.com/Pragna235/MERN-Assignment-Render-JSON-Server#readme"
+
 * Install dependencies using :
 *     npm i json-server cors json-serve
 * Add the below in the `scripts` of package.json
