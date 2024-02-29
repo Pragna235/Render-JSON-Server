@@ -41,6 +41,7 @@
 *     git add .
 *     git commit -m "any comment"
 *     git push origin main
+* Use `git pull` if the commits are to be updated once done when needed.
 
 ### Deployment in RENDER
 
