@@ -4,7 +4,7 @@
 *     git clone repository-url
 * Navigate to your repo folder
 *     cd folder-name
-* Add `package.json` file in the repository folder
+* Add `package.json` file in the repository folder using the below command
 *     npm init -y
 * Your `package.json` will be added.
 * Install dependencies using :
