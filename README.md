@@ -1,6 +1,6 @@
 # MERN-Assignment-Render-JSON-Server
 
-* Clone your github repository in `VSCode` using the following command
+* Clone your empty github repository in `VSCode` using the following command
 *     git clone repository-url
 * Navigate to your repo folder
 *     cd folder-name
