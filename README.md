@@ -23,7 +23,7 @@
       server.use(router);
 
       server.listen(port);
-* Create another file `.gitignore` and `node_modules` to it so that github ignores it in the actual repository.
+* Create another file `.gitignore` and add `node_modules` to it so that github ignores it in the actual repository.
 * Create one last file, say `db.json` and open a set of `{}` and the data that you want to deploy in it.
 
 
