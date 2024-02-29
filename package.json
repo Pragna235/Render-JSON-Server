@@ -1,0 +1,26 @@
+{
+  "name": "mern-assignment-render-json-server",
+  "version": "1.0.0",
+  "description": "* Clone your empty github repository in `VSCode` using the following command\r *     git clone repository-url\r * Navigate to your repo folder\r *     cd folder-name\r * Add `package.json` file in the repository folder using the below command\r *     npm init -y\r * Your `package.json` will be added.\r * Install dependencies using :\r *     npm i json-server cors json-serve\r * Add the below in the `scripts` of package.json\r *     \"start\":\"node index.js\",\r * Create an `index.js` file\r * Copy this code into the `index.js` file for experiment or write your own code\r *     const jsonServer = require(\"json-server\"); // importing json-server library\r       const server = jsonServer.create();\r       const router = jsonServer.router(\"db.json\");\r       const middlewares = jsonServer.defaults();\r       const port = process.env.PORT || 8080; //  chose port from here like 8080, 3001",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pragna235/MERN-Assignment-Render-JSON-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pragna235/MERN-Assignment-Render-JSON-Server/issues"
+  },
+  "homepage": "https://github.com/Pragna235/MERN-Assignment-Render-JSON-Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
