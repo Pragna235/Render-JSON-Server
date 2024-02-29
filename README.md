@@ -31,3 +31,10 @@
 *     git add .
 *     git commit -m "any comment"
 *     git push origin main
+
+### Deployment in RENDER
+
+* Log in to `render.com`
+* Select `New Web Serivice`
+* Connect your github repository
+* Name your API, select the Instance Type and click on `Create Web Service`
